@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="XMath.h" />
+    <ClInclude Include="XWnd.h" />
+    <ClInclude Include="XPtr.h" />
+    <ClInclude Include="XFile.h" />
+    <ClInclude Include="XVideo.h" />
+    <ClInclude Include="XTime.h" />
+    <ClInclude Include="XString.h" />
+    <ClInclude Include="XSound.h" />
+    <ClInclude Include="XMovie.h" />
+    <ClInclude Include="XName.h" />
+    <ClInclude Include="XFileIO.h" />
+    <ClInclude Include="XDebug.h" />
+    <ClInclude Include="XObjMgr.h" />
+    <ClInclude Include="XListObjMgr.h" />
+    <ClInclude Include="XInput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XMath.cpp" />
+    <ClCompile Include="XWnd.cpp" />
+    <ClCompile Include="XPtr.cpp" />
+    <ClCompile Include="XFile.cpp" />
+    <ClCompile Include="XVideo.cpp" />
+    <ClCompile Include="XTime.cpp" />
+    <ClCompile Include="XString.cpp" />
+    <ClCompile Include="XSound.cpp" />
+    <ClCompile Include="XMovie.cpp" />
+    <ClCompile Include="XName.cpp" />
+    <ClCompile Include="XFileIO.cpp" />
+    <ClCompile Include="XDebug.cpp" />
+    <ClCompile Include="XObjMgr.cpp" />
+    <ClCompile Include="XListObjMgr.cpp" />
+    <ClCompile Include="XInput.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5cd25941-323c-452a-bf10-3fcb4a799e71}</ProjectGuid>
+    <RootNamespace>XEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="XActor.h" />
+    <ClInclude Include="XAnim.h" />
+    <ClInclude Include="XBlend.h" />
+    <ClInclude Include="XBloomFilter.h" />
+    <ClInclude Include="XBoneAnimExp.h" />
+    <ClInclude Include="XCam.h" />
+    <ClInclude Include="XCollision.h" />
+    <ClInclude Include="XComponent.h" />
+    <ClInclude Include="XConstBuffer.h" />
+    <ClInclude Include="XDepthStencil.h" />
+    <ClInclude Include="XDevBuffer.h" />
+    <ClInclude Include="XDevice.h" />
+    <ClInclude Include="XEngDebug.h" />
+    <ClInclude Include="XFbxExp.h" />
+    <ClInclude Include="XFogFilter.h" />
+    <ClInclude Include="XFont.h" />
+    <ClInclude Include="XGeometryShader.h" />
+    <ClInclude Include="XHeightMap.h" />
+    <ClInclude Include="XIdxBuffer.h" />
+    <ClInclude Include="XLight.h" />
+    <ClInclude Include="XMapBloomFilter.h" />
+    <ClInclude Include="XMaterial.h" />
+    <ClInclude Include="XMesh.h" />
+    <ClInclude Include="XMotionBlur.h" />
+    <ClInclude Include="XOutLineFilter.h" />
+    <ClInclude Include="XParticle.h" />
+    <ClInclude Include="XPixShader.h" />
+    <ClInclude Include="XRasterizer.h" />
+    <ClInclude Include="XRay.h" />
+    <ClInclude Include="XRender.h" />
+    <ClInclude Include="XRenderingData.h" />
+    <ClInclude Include="XRenderTarget.h" />
+    <ClInclude Include="XSampler.h" />
+    <ClInclude Include="XScene.h" />
+    <ClInclude Include="XShader.h" />
+    <ClInclude Include="XStructuredBuffer.h" />
+    <ClInclude Include="XTexture.h" />
+    <ClInclude Include="XTransform.h" />
+    <ClInclude Include="XVirtualFunc.h" />
+    <ClInclude Include="XVtxCom.h" />
+    <ClInclude Include="XVtxShader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XActor.cpp" />
+    <ClCompile Include="XAnim.cpp" />
+    <ClCompile Include="XBlend.cpp" />
+    <ClCompile Include="XBloomFilter.cpp" />
+    <ClCompile Include="XBoneAnimExp.cpp" />
+    <ClCompile Include="XCam.cpp" />
+    <ClCompile Include="XCollision.cpp" />
+    <ClCompile Include="XComponent.cpp" />
+    <ClCompile Include="XConstBuffer.cpp" />
+    <ClCompile Include="XDepthStencil.cpp" />
+    <ClCompile Include="XDevBuffer.cpp" />
+    <ClCompile Include="XDevice.cpp" />
+    <ClCompile Include="XDevice_Blend.cpp" />
+    <ClCompile Include="XDevice_DepthStencil.cpp" />
+    <ClCompile Include="XDevice_Material.cpp" />
+    <ClCompile Include="XDevice_Mesh.cpp" />
+    <ClCompile Include="XDevice_Rasterizer.cpp" />
+    <ClCompile Include="XDevice_Sampler.cpp" />
+    <ClCompile Include="XDevice_Shader.cpp" />
+    <ClCompile Include="XEngDebug.cpp" />
+    <ClCompile Include="XFbxExp.cpp" />
+    <ClCompile Include="XFogFilter.cpp" />
+    <ClCompile Include="XFont.cpp" />
+    <ClCompile Include="XGeometryShader.cpp" />
+    <ClCompile Include="XHeightMap.cpp" />
+    <ClCompile Include="XIdxBuffer.cpp" />
+    <ClCompile Include="XLight.cpp" />
+    <ClCompile Include="XMapBloomFilter.cpp" />
+    <ClCompile Include="XMaterial.cpp" />
+    <ClCompile Include="XMesh.cpp" />
+    <ClCompile Include="XMotionBlur.cpp" />
+    <ClCompile Include="XOutLineFilter.cpp" />
+    <ClCompile Include="XParticle.cpp" />
+    <ClCompile Include="XPixShader.cpp" />
+    <ClCompile Include="XRasterizer.cpp" />
+    <ClCompile Include="XRay.cpp" />
+    <ClCompile Include="XRender.cpp" />
+    <ClCompile Include="XRenderingData.cpp" />
+    <ClCompile Include="XRenderTarget.cpp" />
+    <ClCompile Include="XSampler.cpp" />
+    <ClCompile Include="XScene.cpp" />
+    <ClCompile Include="XShader.cpp" />
+    <ClCompile Include="XStructuredBuffer.cpp" />
+    <ClCompile Include="XTexture.cpp" />
+    <ClCompile Include="XTransform.cpp" />
+    <ClCompile Include="XVirtualFunc.cpp" />
+    <ClCompile Include="XVtxCom.cpp" />
+    <ClCompile Include="XVtxShader.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

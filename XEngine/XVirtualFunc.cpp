@@ -1,0 +1,1 @@
+#include "XVirtualFunc.h"

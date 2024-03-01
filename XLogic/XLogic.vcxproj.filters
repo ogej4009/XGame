@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="XPlayer.h" />
+    <ClInclude Include="XCursor.h" />
+    <ClInclude Include="XUnityCom.h" />
+    <ClInclude Include="XFreeCam.h" />
+    <ClInclude Include="XEnumCom.h" />
+    <ClInclude Include="XValueCom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XPlayer.cpp" />
+    <ClCompile Include="XCursor.cpp" />
+    <ClCompile Include="XUnityCom.cpp" />
+    <ClCompile Include="XFreeCam.cpp" />
+    <ClCompile Include="XEnumCom.cpp" />
+    <ClCompile Include="XValueCom.cpp" />
+  </ItemGroup>
+</Project>
